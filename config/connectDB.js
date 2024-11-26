@@ -6,6 +6,6 @@ mongoose
 .then(() => console.log('Connected to Mongoose'))
 .catch(err => console.error('Connection error', err));
 }
-
+module.exports = connectDB
 
 

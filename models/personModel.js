@@ -6,6 +6,6 @@ const personSchema = new mongoose.Schema({
   favoriteFoods: [String],
 });
 
-const Person = mongoose.model('Person', personSchema);
+const Person = mongoose.model('Person', personSchema,'people');
 
 module.exports = Person;
